@@ -35,6 +35,7 @@ class Ui(QtWidgets.QMainWindow):
         quit()
     
 app = QtWidgets.QApplication(sys.argv)
+app.setStyle('Fusion')
 window = Ui()
 app.exec_()
 
